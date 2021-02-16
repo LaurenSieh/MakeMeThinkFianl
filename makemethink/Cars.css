@@ -113,7 +113,31 @@ header{
     width: 400px;
 }
 
-@media(max-width: 1000px){
-    
+@media(max-width: 1200px){
+    header{
+        width: 350px;
+        font-size: 50px;
+    }
+    .Deals{
+        position: absolute;
+        font-size: 20px;
+        left: 450px;
+    }
+    .Sale{
+        font-size: 50px;
+    }
+    .Link{
+        position: absolute;
+        font-size: 20px;
+        top:55px;
+    }
+    .not{
+        width: 100px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .rusty{
+        width: 150vh;
+    }
 
 }
