@@ -113,31 +113,52 @@ header{
     width: 400px;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 800px){
     header{
-        width: 350px;
-        font-size: 50px;
+        width: 700px;
+        font-size: 100px;
     }
     .Deals{
-        position: absolute;
-        font-size: 20px;
-        left: 450px;
+        visibility: hidden;
     }
     .Sale{
-        font-size: 50px;
+        visibility: hidden;
     }
     .Link{
-        position: absolute;
-        font-size: 20px;
-        top:55px;
+      visibility: hidden;
     }
     .not{
-        width: 100px;
-        height: 100px;
-        font-size: 25px;
+     visibility: hidden;
     }
     .rusty{
         width: 150vh;
+        position: center;
+    }
+    .four{
+        visibility: hidden;
+    }
+    .Customers{
+        position: absolute;
+        width: 642px;
+        bottom: 10px;
+
+    }
+    .Joe{
+        position: absolute;
+        font-size: 15px;
+        bottom: 2px;
+    }
+    .Mary{
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+        bottom: 2px;
+    }
+    .menu{
+        position: absolute;
+        width: 115px;
+        font-size: 22.5px;
+        left: 25px;
     }
 
 }
